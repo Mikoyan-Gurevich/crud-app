@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/preetishcutfilms
+    password: preetishcutfilms
+    username: root
+    jpa:
+      hibernate:
+        show-sql: true
+
+
